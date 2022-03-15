@@ -34,7 +34,7 @@ Before you can use the `fs` module, we should import it
 Since we are specifically dealing with the Promises version of the `fs` object, we must import it like this:
 
 ```js
-const fs = require('fs').promises;
+import { promises as fs } from 'fs';
 ```
 
 ## Task 2 - Writing data
