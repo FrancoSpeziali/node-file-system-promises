@@ -23,7 +23,7 @@ For these tasks, you are expected to write your code in the file `server.js`
 >
 > Research: [Promise API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
-## Task 1 - Importing the 'fs' module
+### Task 1 - Importing the 'fs' module
 
 For this task, we will be using the node.js module, `fs`
 
@@ -37,7 +37,7 @@ Since we are specifically dealing with the Promises version of the `fs` object, 
 import { promises as fs } from 'fs';
 ```
 
-## Task 2 - Writing data
+### Task 2 - Writing data
 
 ```
 fs.writeFile(path, data, options);
@@ -52,7 +52,7 @@ Research: [fs.writeFile()](https://www.geeksforgeeks.org/node-js-fspromises-writ
    
 2. Test your function by trying to write some data
 
-## Task 3 - Appending data
+### Task 3 - Appending data
 
 ```
 fs.appendFile(path, data);
@@ -67,7 +67,7 @@ Research: [fs.appendFile()](https://www.geeksforgeeks.org/node-js-fs-promises-ap
    
 2. Test your function by trying to write some data
 
-## Task 4 - Reading data
+### Task 4 - Reading data
 
 ```
 fs.readFile(path, options);
